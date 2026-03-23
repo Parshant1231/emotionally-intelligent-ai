@@ -12,3 +12,23 @@ pip install -r requirements.txt
 - `backend/` — FastAPI REST API
 - `frontend/` — Next.js chat UI
 - `research/` — Datasets and thesis notes
+
+
+
+
+
+## ✅ Phase 1 Checklist
+```
+□ Python 3.11 installed
+□ Git configured
+□ Project folder + structure created
+□ Virtual environment created & activated
+□ All packages installed
+□ requirements.txt saved
+□ .gitignore set up
+□ README written
+□ Pushed to GitHub
+□ VS Code extensions installed
+□ test_setup.py passes ✅
+□ GoEmotions dataset downloaded
+```
