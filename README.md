@@ -32,3 +32,13 @@ pip install -r requirements.txt
 □ test_setup.py passes ✅
 □ GoEmotions dataset downloaded
 ```
+
+## ✅ Phase 2 Checklist
+```
+□ detector.py created
+□ test_detector.py passes ✅
+□ Model downloads and caches (~300MB)
+□ All 4 test cases pass
+□ Dataset analysis script runs
+□ Committed and pushed to GitHub
+```
