@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# ML model cache (large files)
+.cache/
+*.bin
+*.pt
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/settings.json
