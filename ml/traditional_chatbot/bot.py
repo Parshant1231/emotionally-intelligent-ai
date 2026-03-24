@@ -75,10 +75,12 @@ class TraditionalChatbot:
         # top_p → nucleus sampling, keeps output coherent
         self.chat_history_ids = self.model.generate(
             input_ids,
-            max_new_tokens=100,
+            max_new_tokens=150,
             do_sample=True,
             temperature=0.7,
             top_p=0.9,
+            repetition_penalty=1.3,    # NEW — stops it repeating itself
+            no_repeat_ngram_size=3,
             pad_token_id=self.tokenizer.eos_token_id
         )
 
