@@ -90,3 +90,16 @@ make research-download
 □ /api/analytics/summary returns data
 □ Committed and pushed
 ```
+
+## ✅ Phase 5 Checklist
+```
+□ Next.js scaffolded inside frontend/
+□ All components created
+□ npm run dev starts without errors
+□ Intake form loads at localhost:3000
+□ Chat works end to end (sends message, gets response)
+□ Emotion badge shows on EI bot messages
+□ Satisfaction rating appears after 5 turns
+□ Analytics dashboard shows data
+□ Committed and pushed
+```
